@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container_1{
+    display: flex;
+    justify-content: center;
+    gap: 282px;
+    margin-top: 50px;
+}
+.left_1{
+    margin-top: 250px;
+    padding: 9px 5px;
+    font-size: 22px;
+}
+.btn{
+    padding: 8px 6px;
+    background-color: rgb(148, 242, 255);
+    margin-top: 12px ;
+    border-radius: 12px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(252, 211, 183);
+    cursor: pointer;
+}
+.right_1 img{
+   height: 800px;
+   position: relative;
+   top: 45px;
+}
+.container_2{
+    background-image: url(bg.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    text-align: center;  
+    justify-content: center;
+}
+.left_2{
+   margin-top: 110px;
+   padding: 46px 73px;
+   margin-bottom: 90px;
+}
+.mid_2{
+    margin-top: 110px;
+    padding: 46px 73px;
+    margin-bottom: 90px;
+}
+.right_2{
+    margin-top: 110px;
+    padding: 46px 73px;
+    margin-bottom: 90px;
+}
+.container_2 h1{
+    color: skyblue;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container_2 h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.container_2 p{
+    color: white;
+}
+.container_3{
+    text-align: center;
+    margin-top: 70px;
+    padding: 90px 10px;
+}
+.btn1{
+    padding: 10px 14px;
+    background-color: skyblue;
+    margin-top: 12px ;
+    border-radius: 13px;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(252, 211, 183);
+    cursor: pointer;
+}
+.contanier_4{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid_4{
+    margin-top: 80px;
+    color: white;
+}
+.mid_4 h1{
+    margin-bottom: 5px;
+}
+.img_1{
+    display: flex;
+    gap: 10px;
+}
+.img_bx{
+    margin: 20px;
+    border: 1px dashed white;  
+    padding: 93px 148px;
+    color: white;
+    font-size: 25px;
+}
+.footer{
+    margin: 30px 0;
+    color: white;
+    margin-bottom: 30px;
+}
+.footer span{
+   color: red;
+}
